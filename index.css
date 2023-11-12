@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid-container{
+    /* background-color: rgb(38,49,73); */
+    padding: 40px;
+    width: 100%; 
+    background: linear-gradient(180deg,rgb(38,49,73) 50%,rgb(202,211,230) 50%);
+}
+.grids{
+    display: grid;
+    /* grid-template-columns: 240px 240px 240px 240px;  */
+    grid-template-columns: auto auto auto auto;
+    /* grid-template-rows: auto auto auto; */
+    gap: 20px;
+    /* justify-content: center; */
+}
+div.first-image h2, div.second-image h2, div.third-image h2, div.fourth-image h2, div.fifth-image h2, div.sixth-image h2{
+    position: relative;
+    z-index: 3;
+}
+.grids h2{
+    /* z-index: -3; */
+    color: white;
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+}
+.grids img{
+    width: 100%;
+}
+.first-image, .second-image, .third-image, .fourth-image, .fifth-image, .sixth-image{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 240px;
+    /* width: 240px; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.first-image{
+    background: url(/images/dolomite-alps.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: 1/ span 10;
+    grid-column: 1/ span 2;
+}
+
+.second-image {
+   
+    background: url(/images/nepal.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.third-image{
+    background: url(/images/kenia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fourth-image{
+    background: url(/images/iceland.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fifth-image{
+    background: url(/images/ethiopia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  .sixth-image {
+    grid-column: 3/ span 2;
+    grid-row: 2/ span 10;
+    background: url(/images/newzealand.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+
