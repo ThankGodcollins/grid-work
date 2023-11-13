@@ -44,7 +44,7 @@ div.first-image h2, div.second-image h2, div.third-image h2, div.fourth-image h2
     
 }
 .first-image{
-    background: url(/images/dolomite-alps.jpg);
+    background: url(./images/dolomite-alps.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,25 +54,25 @@ div.first-image h2, div.second-image h2, div.third-image h2, div.fourth-image h2
 
 .second-image {
    
-    background: url(/images/nepal.jpg);
+    background: url(./images/nepal.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 .third-image{
-    background: url(/images/kenia.jpg);
+    background: url(./images/kenia.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .fourth-image{
-    background: url(/images/iceland.jpg);
+    background: url(./images/iceland.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .fifth-image{
-    background: url(/images/ethiopia.jpg);
+    background: url(./images/ethiopia.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ div.first-image h2, div.second-image h2, div.third-image h2, div.fourth-image h2
   .sixth-image {
     grid-column: 3/ span 2;
     grid-row: 2/ span 10;
-    background: url(/images/newzealand.jpg);
+    background: url(./images/newzealand.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
